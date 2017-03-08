@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Route::resource('home/switch','adminSwitchController');
+// Route::resource('home/switch','soba');
+
+Route::get('/','IndexSwitchController@index');
+Route::post('search','IndexSwitchController@search');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
