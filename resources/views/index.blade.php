@@ -38,7 +38,7 @@
 <td class="">{{$list->nama}}</td>
 <td class="">{{$list->type}}</td>
 <td class="">{{$list->lokasi}}</td>
-<td class="">{{$list->link}}</td>
+<td class=""><a style="color:#000" href="{{url($list->link)}}">{{$list->link}}</a></td>
 
 @if(Auth::Check())
 <td>

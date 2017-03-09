@@ -4,7 +4,7 @@
 <div class="container">
   <div class="jumbotron">
     <h1 class="display-3">Selamat Datang {{auth::user()->name}}</h1>
-    <p class="lead">Sistem informasi udayana Network</p>
+    <p class="lead">Sistem Informasi Infrastuktur Jaringan Udayana(SINJU)</p>
     <hr class="m-y-md">
     <p>Create Info</p>
     <p class="lead">

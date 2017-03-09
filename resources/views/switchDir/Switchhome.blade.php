@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
   <div class="jumbotron">
-    <h1 class="display-3">Sistem Informasi Infrastuktur Jaringan Udayana </h1>
+    <h1 class="display-3">Sistem Informasi Infrastuktur Jaringan Udayana(SINJU) </h1>
     <p class="lead">Selamat Datang {{auth::user()->name}}</p>
     <hr class="m-y-md">
     <p>Create Info</p>

@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>SINJU(Sistem Informasi Infrastuktur Jaringan UNUD)</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -75,14 +75,13 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
+        <h1>Sistem Informasi Infrastuktur Jaringan Udayana (SINJU)</h1>
         @if(Auth::Check())
-        <h1>Hello,Selamat Datang {{Auth::user()->name}}</h1>
+        <p>Hello,Selamat Datang {{Auth::user()->name}}</p>
         @else
-        <h1>Hello,Selamat Datang Pengunjung</h1>
+        <p>Hello,Selamat Datang Pengunjung</p>
         @endif
-
-        <p>We are network enginer, we controll your life</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Nothing &raquo;</a></p>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Nothing &raquo;</a></p> -->
       </div>
     </div>
 
