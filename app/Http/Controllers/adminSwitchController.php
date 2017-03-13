@@ -17,12 +17,12 @@ class adminSwitchController extends Controller
     {
       $a = Rio::all();
       // dd($a);
-      return view('switchDir.switchhome',compact('a'));
+      return view('switchDir.Switchhome',compact('a'));
     }
 
   public function create()
   {
-    return view('switchDir/switchhomeCreate');
+    return view('switchDir.switchhomeCreate');
   }
 
   public function store(Request $request)
@@ -35,7 +35,7 @@ class adminSwitchController extends Controller
   {
     $data = Rio::find($id);
     // return view('switchhomeEdit',compact($data));
-        return view('switchDir/switchhomeEdit',compact('data'));
+        return view('switchDir.switchhomeEdit',compact('data'));
 
   }
 
