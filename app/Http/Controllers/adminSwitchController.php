@@ -17,7 +17,7 @@ class adminSwitchController extends Controller
     {
       $a = Rio::all();
       // dd($a);
-      return view('switchDir/switchhome',compact('a'));
+      return view('switchDir.switchhome',compact('a'));
     }
 
   public function create()
