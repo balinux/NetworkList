@@ -8,7 +8,7 @@
     <hr class="m-y-md">
     <p>Create Info</p>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">add</a>
+      <a class="btn btn-primary btn-lg" href="{{url('/home/switch/create')}}" role="button">add</a>
     </p>
   </div>
 <div class="container">
@@ -27,7 +27,7 @@
 
          @foreach ($a as $data)
         <tr>
-          <td><a href="{{url($data->link)}}">{{$data->nama}}</a> </td>
+          <td>{{$data->nama}}</td>
           <td>{{$data->type}}</td>
           <td>{{$data->lokasi}}</td>
           <!-- <td>

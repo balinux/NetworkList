@@ -8,7 +8,7 @@
     <hr class="m-y-md">
     <p>Create Info</p>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">add</a>
+      <a class="btn btn-primary btn-lg" href="{{url('/home/switch/create')}}" role="button">add</a>
     </p>
   </div>
 <div class="container">
