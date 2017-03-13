@@ -11,6 +11,11 @@ class Rio extends Model
       'type',
       'lokasi',
       'link',
-      'deskripsi'
+      'deskripsi',
+      'status',
+      'noserial',
+      'mac',
+      'latitude',
+      'longitude'
     ];
 }

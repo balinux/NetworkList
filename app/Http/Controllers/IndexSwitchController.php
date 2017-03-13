@@ -25,4 +25,17 @@ class IndexSwitchController extends Controller
       ->get();
       return view('index',compact('list'));
     }
+
+    public function detail($id)
+    {
+      $detail = Rio::find($id);
+      return view('page.detail',compact('detail'));
+      // return $detail;
+    }
+    public function map($id)
+    {
+      $detail = Rio::find($id);
+      return view('page.map',compact('detail'));
+      // return view('page.map');
+    }
 }

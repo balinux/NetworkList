@@ -39,6 +39,31 @@
       </div>
 
       <div class="form-group has-success">
+        <label class="control-label" for="inputSuccess1">status</label>
+        <input type="text" class="form-control form-control-success" id="inputSuccess1" name="status" value="{{$data->status}}"placeholder="Contoh : Http://172.16.240.11">
+      </div>
+
+      <div class="form-group has-success">
+        <label class="control-label" for="inputSuccess1">noserial</label>
+        <input type="text" class="form-control form-control-success" id="inputSuccess1" name="noserial" value="{{$data->noserial}}" placeholder="Contoh : Http://172.16.240.11">
+      </div>
+
+      <div class="form-group has-success">
+        <label class="control-label" for="inputSuccess1">mac</label>
+        <input type="text" class="form-control form-control-success" id="inputSuccess1" name="mac" value="{{$data->mac}}" placeholder="Contoh : Http://172.16.240.11">
+      </div>
+
+      <div class="form-group has-success">
+        <label class="control-label" for="inputSuccess1">latitude</label>
+        <input type="text" class="form-control form-control-success" id="inputSuccess1" name="latitude" value="{{$data->latitude}}" placeholder="Contoh : Http://172.16.240.11">
+      </div>
+
+      <div class="form-group has-success">
+        <label class="control-label" for="inputSuccess1">longitude</label>
+        <input type="text" class="form-control form-control-success" id="inputSuccess1" name="longitude" value="{{$data->longitude}}" placeholder="Contoh : Http://172.16.240.11">
+      </div>
+
+      <div class="form-group has-success">
         <label class="control-label" for="inputSuccess1">deskripsi</label> <br>
         <textarea name="deskripsi" rows="8" cols="80">{{$data->nama}}</textarea>
       </div>

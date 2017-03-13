@@ -19,6 +19,11 @@ class CreateRiosTable extends Migration
           $table->string('type',30);
           $table->string('lokasi',100);
           $table->string('link',30);
+          $table->string('status',30);
+          $table->string('noserial',30);
+          $table->string('mac',30);
+          $table->string('longitude',30);
+          $table->string('latitude',30);
           $table->text('deskripsi');
           $table->timestamps();
         });

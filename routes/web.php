@@ -19,7 +19,9 @@ Route::resource('home/switch','adminSwitchController');
 // Route::resource('home/switch','soba');
 
 Route::get('/','IndexSwitchController@index');
+Route::get('detail/{id}','IndexSwitchController@detail');
 Route::post('search','IndexSwitchController@search');
+Route::get('map/{id}','IndexSwitchController@map');
 
 Auth::routes();
 

@@ -35,7 +35,7 @@
 @foreach($list as $list)
 <tbody>
 <td class="">{{$list->id}}</td>
-<td class="">{{$list->nama}}</td>
+<td class=""><a href="{{('map/'.$list->id)}}">{{$list->nama}}</a></td>
 <td class="">{{$list->type}}</td>
 <td class="">{{$list->lokasi}}</td>
 <td class=""><a style="color:#000" href="{{url($list->link)}}">{{$list->link}}</a></td>
